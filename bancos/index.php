@@ -46,7 +46,8 @@ while ($f = $facturas->fetch_assoc()) {
     <div class="main-content">
         <h2>Movimientos Bancarios</h2>
         <?php if (isset($_GET['msg'])) echo "<p class='success'>{$_GET['msg']}</p>"; ?>
-        <a href="upload.php">Subir nuevo archivo</a>
+        <a href="upload.php">Subir Archivo de Bancos</a>
+		<a href="upload_layout.php">SUbir Layout Excel</a>
         <table id="tabla-cobranza" class="display">
             <thead>
                 <tr>
